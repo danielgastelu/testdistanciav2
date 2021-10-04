@@ -1,0 +1,9 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="2!ybIa03}~Zi$]juj(EN" x="2" y="202" h="282" w="582">*** ATENCIÓN ***
+No pueden usarse los siguientes pines en el sensor de distancia, pues los usan los motores u otros elementos de la placa kitronik
+
+P12
+p8
+P16
+P0
+P1
+P2.</comment><block type="device_forever" id="kArsfGz6)sBfKF}]bM]#" x="265" y="-26"><statement name="HANDLER"><block type="device_show_number" id="c,sHYDUs{0$o)qxJ;U3}"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="BWIn(H%Vz8KH#B8_MFPR"><field name="trig">DigitalPin.P5</field><field name="echo">DigitalPin.P11</field><field name="unit">PingUnit.Centimeters</field></block></value></block></statement></block><block type="pxt-on-start" id="d8;K=/|xPnVZRCl^J`^T" x="0" y="0"/></xml>
